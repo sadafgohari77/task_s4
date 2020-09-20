@@ -35,10 +35,6 @@
   }
 }
 
-.width-for-col {
-  width:179px ;
-}
-
 .line-break {
   padding: 1px;
   height: 50px;
@@ -63,14 +59,6 @@
 .icon-size {
   height: 60px;
   width: 60px;
-}
-
-@media screen and  (max-width: 768px) {
-  .level-item .image {
-    justify-content: center;
-    margin-right: 15px;
-
-  }
 }
 
 @media screen and  (max-width: 768px) {
