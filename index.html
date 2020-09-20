@@ -1,0 +1,307 @@
+<!doctype html>
+<html class="no-js">
+ <head>
+   <meta charset="utf-8">
+   <title>task_s4</title>
+   <meta name="description" content="task_4 sdf">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/monta.css">
+   <link rel="stylesheet" href="css/montav2.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script  src="js/main.js"></script>
+ </head>
+  <body>
+    <div class="m--monta-app">
+      <div class="m--header">
+        <div>
+          <div class="navbar is-fixed-top has-shadow-1 is-hidden-mobile">
+            <div class="navbar-brand m--nav-tablet">
+              <a class="navbar-item is-hidden-desktop">
+                <span class="mi mi-hamburger is-2x"></span>
+              </a>
+              <a class="navbar-item" href="javascript:;">
+                <img alt="مٌـنتا، آموزش و ارزیابی هوشمند" src="data:image/png;base64,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">
+              </a>
+            </div>
+            <div class="navbar-menu">
+              <div class="navbar-start"><a class="navbar-item" title="خانه">خانه</a>
+                <div class="navbar-item has-dropdown is-hoverable is-mega"><a class="navbar-link" title="میزکار">میزکار</a>
+                  <div class="navbar-dropdown">
+                    <div class="container is-fluid">
+                      <div class="columns">
+                        <div class="column">
+                          <a class="navbar-item title is-6 is-mega-menu-title" title="ارزیابی">ارزیابی</a>
+                          <a class="navbar-item" title="ساخت آزمون">ساخت آزمون</a>
+                          <a class="navbar-item" title="مدیریت آزمون">مدیریت آزمون</a>
+                          <a class="navbar-item" title="ساخت آزمون غیرمنتایی">ساخت آزمون غیرمنتایی</a>
+                          <a class="navbar-item" title="شبیه ساز کنکور">شبیه ساز کنکور</a>
+                        </div>
+                        <div class="column">
+                          <a class="navbar-item title is-6 is-mega-menu-title" title="آموزش">آموزش</a>
+                          <a class="navbar-item" title="جستجوی درس نامه">جستجوی درس نامه</a>
+                          <a class="navbar-item" title="کلاس آنلاین">کلاس آنلاین</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><a class="navbar-item">دعوت از دوستان</a><a class="navbar-item">گشت و گذار</a>
+              </div>
+              <div class="navbar-end">
+                <a class="navbar-item" title="پول">
+                  <span>10,053,015</span>
+                  <span class="mi mi-coin-charge half-space-right is-2x"></span>
+                </a>
+                <a class="navbar-item" title="درآمد">
+                  <span>0</span>
+                  <span class="mi mi-income half-space-right is-2x"></span>
+                </a>
+                <a class="navbar-item" title="اعتبار">
+                  <span>80</span>
+                  <span class="mi mi-diamond half-space-right is-2x"></span>
+                </a>
+                <a class="navbar-item" title="رخدادها">
+                  <span class="mi mi-bell is-2x" data-badge="0"></span>
+                </a>
+                <div class="navbar-item is-hoverable m--user-menu has-dropdown">
+                  <a class="navbar-link" href="javascript:;">
+                    <div class="image is-32x32">
+                      <img class="is-rounded" src="https://www.monta.ir/render?id=383116">
+                      <span class="badge is-badge-danger is-badge-small"></span>
+                    </div>
+                    <div>saeed</div>
+                  </a>
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" title="تغییر رمز کاربری">تغییر رمز کاربری</a>
+                    <a class="navbar-item" title="خروج">خروج</a>
+                  </div>
+                </div>
+                <a class="navbar-item is-hidden" href="javascript:;"> ورود/ثبت نام </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal m--mobile-menu-contents is-hidden-desktop">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <div class="modal-card-head">
+              <a class="navbar-item" href="javascript:;"> <span class="mi mi-right"></span>
+              </a>
+              <a class="navbar-item m--logo" href="javascript:;">
+                <img alt="مٌـنتا، آموزش و ارزیابی هوشمند" src="data:image/png;base64,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">
+              </a>
+            </div>
+            <div class="modal-card-body">
+              <div class="menu">
+                <div class="is-flex-row-space">
+                  <a class="is-flex-row-start  has-text-black is-hidden" title="پول">
+                    <span></span>
+                    <span class="mi mi-coin-charge half-space-right is-2x"></span>
+                  </a>
+                  <a class="is-flex-row-start  has-text-black is-hidden" title="درآمد">
+                    <span></span>
+                    <span class="mi mi-income half-space-right is-2x"></span>
+                  </a>
+                  <a class="is-flex-row-start has-text-black is-hidden" title="اعتبار">
+                    <span></span>
+                    <span class="mi mi-diamond half-space-right is-2x"></span>
+                  </a>
+                </div>
+                <ul class="menu-list">
+                  <li>
+                    <a title="جستجوی آزمون">جستجوی آزمون</a>
+                  </li>
+                  <li>
+                    <a title="خرید">خرید</a>
+                  </li>
+                </ul>
+                <div>
+                  <a class="is-flex-row-start has-text-black is-hidden" title="رخدادها">
+                    <span> رخدادها </span>
+                    <span class="mi mi-bell is-2x half-space-right"></span>
+                  </a>
+                </div>
+                <div>
+                  <a class="is-flex-row-start has-text-black space-top is-hidden" title="تغییر رمز کاربری">
+                    <span> تغییر رمز کاربری </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-card-foot">
+              <a class="button is-size-5">
+                <span class="mi mi-logout is-2x icon"></span>
+                <span>وارد شوید</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m--main-panel">
+        <div class="m--control-container container is-fullhd space-14-mobile-n  is-paddingless-bottom">
+          <div class="columns m--main-contents">
+            <div class="m--content-panel column is-12-mobile has-background-white is-">
+              <div class="columns space-12-n">
+                <div class="column is-2">
+                  <div class="is-hidden-desktop">
+                    <div class="is-right">
+                      <span class="has-text-weight-bold text-size-18-n">ادبیات فارسی اختصاصی 3</span>
+                    </div>
+                    <div class="is-left">
+                      <div class="is-flex-row-end">
+                        <div class="is-flex-row-start">
+                          <span class="text-grey-n text-size-14-n space-12-right-n">2</span>
+                          <span class=" mi-favourite-16px icon-margin is-1-5x text-grey-n"></span>
+                        </div>
+                        <div class=" is-flex-row-start">
+                           <span class="mi-Share is-1-5x text-grey-n space-12-right-n"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="container-has-header has-text-centered no-bordered  is-paddingless">
+                       <img class="image image-size is-rounded-10"  src="img/ketab.png">
+                    </div>
+                </div>
+                <div class="column  space-8-left-n">
+                  <div class="is-hidden-mobile space-8-bottom-n">
+                    <div class="is-right">
+                      <span class="has-text-weight-bold text-size-18-n">ادبیات فارسی اختصاصی 3</span>
+                    </div>
+                    <div class="is-left">
+                      <div class="is-flex-row-end">
+                        <div class="is-flex-row-start">
+                          <span class="text-grey-n text-size-14-n space-12-right-n">2</span>
+                          <span class="mi-favourite-16px icon-margin is-1-5x text-grey-n"></span>
+                        </div>
+                        <div class="is-hidden-mobile is-flex-row-start">
+                          <span class="text-grey-n text-size-14-n  space-12-right-n">213</span>
+                          <span class="mi-show-24px icon-margin is-1-5x text-grey-n"></span>
+                        </div>
+                        <div class=" is-flex-row-start ">
+                           <span class="mi-Share icon-margin is-1-5x text-grey-n space-12-right-n"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="is-flex is-hidden-mobile">
+                    <div class="a labelBook">
+                      دبیرستان
+                    </div>
+                    <div class="a labelBook">
+                      چهارم
+                    </div>
+                    <div class="a labelBook">
+                      انسانی(نظام قدیم)
+                    </div>
+                  </div>
+                  <div class="columns space-12-top-n space-8-bottom-n is-marginless-top-mobile">
+                    <div class="column is-8 ">
+                      <div class="has-text-weight-bold text-size-14-n space-8-bottom-n is-flex-row-start">
+                                 اشتراک ویژه دانش آموزان
+                        <a class="mi-Info text-blue-n space-4-right-n"></a>
+                      </div>
+                      <div class="wrapped-flex ">
+                        <div class="button is-large is-3  is-2-mobile space-4-bottom-n space-4-right-n centered border-color-green" id="0" onclick="buttonStyleClicked(0)">
+                          <span class="mi-Mark-2 is-1-2x text-green-main-n space-4-left-n" id="icon0"></span>
+                          <div class="text-size-18-n text-size-14-mobile-n">1 ماه</div>
+                        </div>
+                        <div class="button is-large is-3 is-2-mobile space-4-bottom-n space-4-right-n centered" id="3" onclick="buttonStyleClicked(3)" >
+                          <span class="mi-Mark-2 is-1-2x dont-show text-green-main-n space-4-left-n" id="icon3"></span>
+                          <div class="text-size-18-n text-size-14-mobile-n">3 ماه</div>
+                        </div>
+                        <div class="button is-large is-3 is-2-mobile  space-4-bottom-n space-4-right-n centered" id="6" onclick="buttonStyleClicked(6)">
+                          <span class="mi-Mark-2 is-1-2x dont-show text-green-main-n space-4-left-n" id="icon6"></span>
+                          <div class="text-size-18-n text-size-14-mobile-n">6 ماه</div>
+                        </div>
+                        <div class="button is-large is-3 is-2-mobile space-4-bottom-n space-4-right-n centered" id="9" onclick="buttonStyleClicked(9)">
+                          <span class="mi-Mark-2 is-1-2x dont-show text-green-main-n space-4-left-n" id="icon9"></span>
+                          <div class="text-size-18-n text-size-14-mobile-n">9 ماه</div>
+                        </div>
+                        <div class="button is-large is-3 is-2-mobile space-4-bottom-n space-4-right-n centered" id="12" onclick="buttonStyleClicked(12)">
+                          <i class="mi-Mark-2 is-1-2x dont-show text-green-main-n space-4-left-n" id="icon12"></i>
+                          <div class="text-size-18-n text-size-14-mobile-n">12 ماه</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column ">
+                      <div class="has-text-weight-bold text-size-14-n space-8-bottom-n is-flex-row-start">
+                         اشتراک ویژه مدارس
+                         <a class="mi-Info text-blue-n space-4-right-n"></a>
+                      </div>
+                      <div class="button is-large is-3" id="15" onclick="buttonStyleClicked(15)">
+                        <i class="mi-Mark-2 is-1-2x dont-show text-green-main-n space-4-left-n" id="icon15"></i>
+                        <div class="text-size-18-n ">12 ماه</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="level space-32-top-n">
+                    <div class="level-right is-size-7-touch text-size-8-mobile-n">
+                      <div class="  has-text-centered-mobile">
+                        <span class="has-text-weight-bold text-size-20-n">قیمت کل:</span>
+                        <label class="has-text-weight-bold text-size-20-n space-8-right-n space-8-left-n" id="price">13000</label>
+                        <span class="has-text-weight-bold text-size-16-n">ریال</span>
+                      </div>
+                      <div class="has-text-centered-mobile  space-8-top-mobile-n">
+                        <span class="space-4-right-n">(حق اشتراک: </span>
+                        <span class="space-4-left-n space-4-right-n" id="subscriptionRight" >9100</span>
+                        <span>تومان + شارژ دریافتی</span>
+                        <span class="space-4-left-n space-4-right-n" id="ReceivedCharge">3900</span>
+                        <span>تومان)</span>
+                      </div>
+                    </div>
+                    <div class="level-left is-hidden-mobile">
+                      <div class="button background-green-main-n is-rounded is-large is-paddingless">
+                        <i class="mi-Add-to-list is-1-2x has-text-white padding-3-n space-8-right-n"></i>
+                        <div class="text-size-16-n has-text-white  padding-3-n space-8-left-n">افزودن به سبد خرید</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="m--control-container container is-fullhd">
+          <div class="columns m--main-contents space-14-left-mobile-n space-14-right-mobile-n ">
+            <div class="m--content-panel column is-12-mobile has-background-white  is-paddingless-bottom">
+              <div class="has-text-weight-bold text-size-18-n text-size-16-mobile-n space-12-n">در این کتاب چه خواهید دید؟</div>
+              <div class="level space-24-bottom-n ">
+                <div class="level-item space-24-bottom-mobile-n">
+                  <img class="icon-size" src="img/icon1.PNG">
+                  <div class="space-12-right-n is-right">
+                    <p class="text-size-16-n space-8-bottom-n has-text-weight-bold">3 سوال </p>
+                    <p class="text-dark-grey-n text-size-11-n">تعداد سوال تستی</p>
+                  </div>
+                </div>
+                <div class="line-break is-hidden-mobile"></div>
+                <div class="level-item space-24-bottom-mobile-n">
+                  <img class="icon-size" src="img/icon2.PNG">
+                  <div  class="space-12-right-n">
+                    <p class="text-size-16-n space-8-bottom-n has-text-weight-bold">72 سوال</p>
+                    <p class="text-dark-grey-n text-size-11-n">تعداد سوال تشریحی</p>
+                  </div>
+                </div>
+                <div class="line-break is-hidden-mobile"></div>
+                <div class="level-item space-24-bottom-mobile-n">
+                  <img class="icon-size" src="img/icon3.PNG">
+                  <div  class="space-12-right-n">
+                    <p class="text-size-16-n space-8-bottom-n has-text-weight-bold">0 سوال</p>
+                    <p class="text-dark-grey-n text-size-11-n">تعداد سوال های ویدیودار</p>
+                  </div>
+                </div>
+                <div class="line-break is-hidden-mobile"></div>
+                <div class="level-item ">
+                  <img class="icon-size" src="img/icon4.PNG">
+                  <div  class="space-12-right-n">
+                    <p class="text-size-16-n space-8-bottom-n has-text-weight-bold">0 درسنامه</p>
+                    <p class="text-dark-grey-n text-size-11-n">تعداد درسنامه ها</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
